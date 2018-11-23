@@ -159,7 +159,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.8904134, y: 0.26027584}
-  m_ConnectedAnchor: {x: -0.19958664, y: 1.4802759}
+  m_ConnectedAnchor: {x: -0.19958669, y: 1.4802759}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -305,7 +305,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.07000001, y: -2.36}
+  m_ConnectedAnchor: {x: 0.06999999, y: -2.36}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -581,7 +581,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.7993171, y: 0.000000029802322}
-  m_ConnectedAnchor: {x: -0.39068285, y: -0.55999994}
+  m_ConnectedAnchor: {x: -0.39068288, y: -0.5600002}
   m_UseMotor: 1
   m_Motor:
     m_MotorSpeed: 0
@@ -747,7 +747,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -0.8969679, y: 0.22632098}
-  m_ConnectedAnchor: {x: 0.29303214, y: 1.446321}
+  m_ConnectedAnchor: {x: 0.2930321, y: 1.446321}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -981,7 +981,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1475033556}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.22, z: 0}
+  m_LocalPosition: {x: 0.02, y: -1.97, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 1766862334}
@@ -1039,7 +1039,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -1.005, y: 0}
-  m_ConnectedAnchor: {x: 0.30500004, y: -0.59000003}
+  m_ConnectedAnchor: {x: 0.305, y: -0.5899999}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1149,6 +1149,7 @@ GameObject:
   - component: {fileID: 1924900202}
   - component: {fileID: 1924900201}
   - component: {fileID: 1924900200}
+  - component: {fileID: 1924900203}
   m_Layer: 0
   m_Name: Rope
   m_TagString: Untagged
@@ -1270,9 +1271,20 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1924900199}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1021751, y: -0.8746919, z: 0.013671875}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1924900203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1924900199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d42999ee26134449fbd529925460dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
